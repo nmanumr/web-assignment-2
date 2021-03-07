@@ -1,0 +1,259 @@
+<html>
+
+<head>
+    <link href="./resets.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+</head>
+
+<body class="font-sans bg-min-purple-50">
+    <input id="_drawer-toggle" type="checkbox" class="hidden" autocomplete="off">
+
+    <div class="drawer p-8 fixed sm:hidden inset-0 bg-min-purple-50 z-50 transition duration-300 transform -translate-x-full">
+        <header class="mb-12 flex items-center">
+            <div>
+                <a>
+                    <img class="h-6" src="https://www.minervaknows.com/img/wordmark.cd7803e5.svg">
+                </a>
+            </div>
+            <div class="flex justify-end sm:hidden flex-grow">
+                <label class="cursor-pointer" for="_drawer-toggle">
+                    <img src="https://www.minervaknows.com/img/icon-close.9e772f93.svg">
+                </label>
+            </div>
+        </header>
+
+        <nav class="flex flex-col">
+            <a class="py-2.5 px-4 text-min-purple-500 rounded-md hover:bg-gray-200 uppercase text-xs font-extrabold tracking-wider transition duration-300"
+                href="/#recipes-section" tabindex="0">
+                Recipes
+            </a>
+            <a class="py-2.5 px-4 text-min-purple-500 rounded-md hover:bg-gray-200 uppercase text-xs font-extrabold tracking-wider transition duration-300"
+                href="/#themes-section" tabindex="0">
+                Themes
+            </a>
+            <a class="py-2.5 px-4 text-min-purple-500 rounded-md hover:bg-gray-200 uppercase text-xs font-extrabold tracking-wider transition duration-300"
+                href="/about-us" target="_blank" tabindex="0">
+                About Us
+            </a>
+            <a class="py-2.5 px-4 text-min-purple-500 rounded-md hover:bg-gray-200 uppercase text-xs font-extrabold tracking-wider transition duration-300"
+                href="https://help.minervaknows.com/" target="_blank" tabindex="0">
+                FAQ
+            </a>
+            <hr class="border-t border-gray-400 my-2">
+            <a class="py-2.5 px-4 rounded-md hover:bg-gray-200 uppercase text-xs font-extrabold tracking-wider transition duration-300"
+                href="https://app.minervaknows.com#/login" target="_blank" tabindex="0">
+                Log In
+            </a>
+        </nav>
+    </div>
+
+    <header class="py-6 bg-white">
+        <div class="flex items-center max-w-screen-lg mx-auto px-8">
+            <div>
+                <a>
+                    <img class="h-6" src="https://www.minervaknows.com/img/wordmark.cd7803e5.svg">
+                </a>
+            </div>
+            <div class="flex justify-end sm:hidden flex-grow">
+                <label class="cursor-pointer" for="_drawer-toggle">
+                    <img src="https://www.minervaknows.com/img/icon-hamburger.63dd4c27.svg">
+                </label>
+            </div>
+            <div class="hidden sm:block flex-grow space-x-9 ml-16">
+                <a href="/#recipes-section"
+                    class="uppercase text-xs font-extrabold tracking-wider text-min-purple-500 header-nav-link">
+                    Recipes
+                </a>
+                <a href="/#themes-section"
+                    class="uppercase text-xs font-extrabold tracking-wider text-min-purple-500 header-nav-link">
+                    Themes
+                </a>
+                <a href="/about-us"
+                    class="uppercase text-xs font-extrabold tracking-wider text-min-purple-500 header-nav-link">
+                    About Us
+                </a>
+                <a href="https://help.minervaknows.com/" target="_blank"
+                    class="uppercase text-xs font-extrabold tracking-wider text-min-purple-500 header-nav-link">
+                    FAQ
+                </a>
+            </div>
+            <div class="hidden sm:flex items-center">
+                <a href="https://chrome.google.com/webstore/detail/minerva/fmnkjhgnmnllimijijhkokmigchmpmcd"
+                    target="_blank"
+                    class="hidden lg:block px-8 py-5 mr-6 bg-min-purple-500 hover:bg-min-indigo-500 rounded-xl text-white uppercase text-xxs font-extrabold tracking-wider transition duration-300">
+                    <span class="v-btn__content"> Try for Free </span>
+                </a>
+                <a href="https://app.minervaknows.com#/login" target="_blank"
+                    class="uppercase text-xs font-extrabold tracking-wider header-nav-link">
+                    Log In
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="max-w-screen-lg mx-auto mt-12 mb-16 px-8">
+        <div class="flex flex-col-reverse lg:flex-row lg:space-y-0 lg:space-x-10">
+            <div class="w-full mt-16 lg:mt-0 lg:w-52">
+                <div class="rounded-xl p-6 space-y-4 flex-shrink-0" style="background-color: #eeecf3;">
+                    <h6 class="text-2xl">What is Minerva?</h1>
+                        <p class="text-gray-500 text-md">The web is lonely, complicated place. Don't try to figure it
+                            out
+                            yourself.</p>
+                        <p class="text-gray-500 text-md">
+                            Minerva can help you navigate it with our Chrome Extension by providing you with interactive
+                            step-by-step directions on all of your favorite websites.
+                        </p>
+                        <p class="text-md">
+                            <a href="#"
+                                class="text-min-purple-500 transition duration-300 hover:text-min-indigo-500">How do
+                                I install Minerva?</a>
+                        </p>
+                </div>
+            </div>
+
+            <div class="flex-grow">
+                <div class="relative w-max">
+                    <img src="https://www.minervaknows.com/img/icon-clicks.ae8611d6.svg">
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div class="text-center text-min-teal-500 font-semibold mb-2 ml-1" style="line-height: .5;">
+                            <span class="text-sm">3</span><br>
+                            <span class="text-xxs">Mins</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="md:flex space-y-6 md:space-y-0 items-center justify-between mt-4">
+                    <div>
+                        <h2 class="text-4xl text-gray-700 max-w-sm font-medium">Create an email template in Gmail</h2>
+                        <div class="uppercase text-sm font-medium text-gray-400 mt-3">
+                            Created by [Name]
+                        </div>
+                    </div>
+                    <div>
+                        <button
+                            class="px-8 py-5 border-2 bg-transparent hover:bg-min-indigo-500 border-min-purple-500 hover:border-min-indigo-500 rounded-xl text-min-purple-500 hover:text-white uppercase text-xxs font-extrabold tracking-wider transition duration-300">
+                            Begin Recipe
+                        </button>
+                    </div>
+                </div>
+
+                <p class="mt-6 text-gray-700">
+                    This is test description
+                </p>
+
+                <div class="max-w-3xl mt-4">
+                    <div class="flex space-x-2 border-t-2 border-b-2 border-gray-200 py-3">
+                        <div class="px-16 py-3 bg-gray-200 text-gray-500 rounded-xl">mail.google.com</div>
+                        <div class="px-16 py-3 bg-gray-200 text-gray-500 rounded-xl">google.com</div>
+                    </div>
+
+                    <ul class="steps-list">
+                        <li>
+                            <span>Click Compose</span>
+                        </li>
+                        <li>
+                            <span class="steps-list__pre-item">
+                                You should now be on <span class="underline">https://mail.google.com/mail/u/0/</span>
+                            </span>
+                            <span>Enter Subject (NOTE: this will act as the template title)</span>
+                        </li>
+                        <li>
+                            <span>
+                                Enter the message (if you have signature setup you might want to it now so it doesn't
+                                show
+                                up twice when you use your template)
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                Click where you see the pulse
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                Click Templates
+                            </span>
+                        </li>
+                    </ul>
+
+                    <div class="mt-10">
+                        <button
+                            class="px-8 py-5 border-2 bg-transparent hover:bg-min-indigo-500 border-min-purple-500 hover:border-min-indigo-500 rounded-xl text-min-purple-500 hover:text-white uppercase text-xxs font-extrabold tracking-wider transition duration-300">
+                            Begin Recipe
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-min-purple-50">
+        <div class="max-w-screen-lg mx-auto py-20 px-8 lg:space-y-56">
+            <div class="lg:grid grid-cols-12">
+                <div class="col-span-1 p-3 flex justify-center">
+                    <img class="h-8 w-8" src="https://www.minervaknows.com/img/logo.edc2d0f8.svg">
+                </div>
+                <div class="col-span-5 p-3">
+                    <h6 class="mb-6 font-medium text-center lg:text-left">Contact Us</h6>
+                    <div class="text-center lg:text-left">
+                        <a href="mailto:hello@minervaknows.com"
+                            class="text-min-purple-500 text-md lg:text-xl anchor--hoverable relative">
+                            hello@minervaknows.com
+                        </a>
+                    </div>
+                    <h6 class="my-6 font-medium text-center lg:text-left">Join Us</h6>
+                    <div class="text-center lg:text-left">
+                        <a href="/about-us#openings-section"
+                            class="text-min-purple-500 text-md lg:text-xl anchor--hoverable relative">
+                            Explore open roles →
+                        </a>
+                    </div>
+                </div>
+                <div class="col-span-5 p-3 mt-10 lg:mt-0">
+                    <h6 class="mb-6 font-medium text-center lg:text-left max-w-xxs lg:max-w-full mx-auto">
+                        Get notified about updates, new recipes, and tips.
+                    </h6>
+                    <form method="post" action="/waitlist/register">
+                        <div class="mt-1 pt-3">
+                            <div class="flex items-center border-b border-gray-400 input__underlined">
+                                <div class="flex-grow relative">
+                                    <input class="bg-transparent focus:outline-none w-full py-2 form__input-field"
+                                        type="email" required="true" name="email" placeholder=" ">
+                                    <label
+                                        class="absolute left-0 text-gray-500 text-lg pt-1.5 pointer-events-none form__input-label">Your
+                                        email address</label>
+                                </div>
+                                <div class="flex-shrink-0">
+                                    <button type="submit" class="flex items-baseline text-min-purple-500 text-lg">
+                                        <span class="mr-2">Join</span>
+                                        <img src="https://www.minervaknows.com/img/carrot-right.667ad51a.svg"
+                                            class="carrot-right">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="flex flex-col-reverse lg:grid grid-cols-12 space-y-16 lg:space-y-0">
+                <div class="col-span-1"></div>
+                <div class="col-span-5 p-3 lg:text-left text-center">
+                    <span class="text-xxs"> © 2021 Minerva Knows, Inc. All rights reserved. </span>
+                </div>
+                <div
+                    class="col-span-5 p-3 lg:space-x-10 space-y-4 lg:space-y-0 flex lg:flex-row flex-col items-center lg:items-start">
+                    <a href="/privacy" class="text-xxs underline" target="_blank"> Privacy Policy </a>
+                    <a href="/terms" class="text-xxs underline" target="_blank"> Terms of Use </a>
+                </div>
+                <div class="col-span-1 p-3 flex lg:justify-start justify-center">
+                    <a href="#">
+                        <img src="https://www.minervaknows.com/img/icon-back-to-top.f7de5b45.svg">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
